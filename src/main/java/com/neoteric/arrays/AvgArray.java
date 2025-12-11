@@ -10,15 +10,12 @@ count = total no of elements in array means dont worry and over think about it. 
 
 public class AvgArray {
     public static void main(String[]args){
-        int [] arr ={10,20,30,40,50};
+        int[] arr ={10,20,30,40,50};
         int sum = 0;
-        for(int i =0;i<arr.length;i++){
-            sum = sum +arr[i];
+        for (int i =0;i< arr.length;i++){
+            sum=sum+arr[i];
         }
-
-        double average = (double) sum /arr.length; // int to double means type casting orAutomatic Widening Casting
-
-        System.out.println("average="+average);
-
+        double average =(double)sum/arr.length;
+        System.out.println(average);
     }
 }
