@@ -9,7 +9,8 @@ public class CopyArray {
         }
         System.out.print("copied array");
         for (int i =0;i<b.length;i++){
-            System.out.print(b[i]+" ");
+            System.out.print
+                    (b[i]+" ");
         }
     }
 }

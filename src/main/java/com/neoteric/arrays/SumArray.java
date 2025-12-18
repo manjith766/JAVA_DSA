@@ -1,5 +1,4 @@
 package com.neoteric.arrays;
-
 /* what is an array?
 --->one variable that stores multiple values of the same type .
 Think of an array as a row of fixed-size lockers, all of the same type.
@@ -25,7 +24,6 @@ How do I visit each value one by one?
 
 Where do I keep the total?
 → In a variable (sum)
-
  */
 public class SumArray {
     public static void main(String[] args){
@@ -34,7 +32,7 @@ public class SumArray {
         int sum = 0;
 
     //    for(int x: arr){
-     //   sum = sum + x;
+        //   sum = sum + x;
    //     }
    //     System.out.print("sum ="+sum);
 
@@ -46,7 +44,7 @@ public class SumArray {
 }
 /*
 Common mistake:
-for (int i = 0; i <= arr.length; i++) → ❌ ArrayIndexOutOfBoundsException
+for (int i = 0; i <= arr.length; i++) →  ArrayIndexOutOfBoundsException
 Fix: use < arr.length, not <=.
 
 if u have any doubt u can test .....

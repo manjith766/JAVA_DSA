@@ -2,15 +2,11 @@ package com.neoteric.Strings;
 
 public class ReverseString {
     public static void main(String[]args) {
-      String str ="hello";
-      String rev = "";
-      for (int i =str.length()-1;i>=0;i--){
-          rev = rev + str.charAt(i);
-      }
-      System.out.println(rev);
-
-        StringBuilder sb = new StringBuilder(str);
-        sb.reverse();
-        System.out.println(sb);
+        String s = "Manjith";
+        String rev = " ";
+        for (int i=s.length()-1;i>=0;i--){
+            rev = rev+s.charAt(i);
+        }
+        System.out.println(rev);
     }
 }
